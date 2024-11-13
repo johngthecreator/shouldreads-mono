@@ -1,4 +1,4 @@
-# Books Books Books
+# ShouldReads
 
 ## How it came to be
 This is a little NLP project I cooked up to help me find books to read based off of a query. I used the [mixedbread-ai/mxbai-embed-xsmall-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-xsmall-v1) to vectorize descriptions of some book from the must read list on Goodreads.
