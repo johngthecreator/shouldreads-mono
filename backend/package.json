@@ -1,5 +1,5 @@
 {
-  "name": "bbb-backend",
+  "name": "shouldreads-backend",
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
