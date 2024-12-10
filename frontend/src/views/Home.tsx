@@ -12,7 +12,7 @@ export interface IBookResponse {
 }
 
 
-const extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+const extractor = await pipeline('feature-extraction', 'mixedbread-ai/mxbai-embed-xsmall-v1');
 
 const vectorize = async (query: string) => {
     // const sentences = ['What should I buy from the grocery?', 'you can convert sentences', "let's test this", "Remind me later today that I need to grab milk", "Here are the groceries I'm getting: milk, eggs, fruit, water"];
